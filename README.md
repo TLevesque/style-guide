@@ -37,7 +37,6 @@ var number = 1;
 
 // Bad
 var letter = 'a', number = 1;
-
 var letter = 'a',
     number = 1;
 ```
@@ -45,7 +44,6 @@ var letter = 'a',
 ```js
 // Good
 var myBoolean = true;
-
 function MyClass (name) {
   this.name = name;
 }
