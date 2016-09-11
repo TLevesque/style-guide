@@ -53,13 +53,13 @@ function MyClass (name) {
 // Bad
 var myboolean = true;
 ```
-- Use single quotes for strings.
+- Be descriptive with your variable names.
 ```js
 // Good
-var myString = 'Hello world';
+var numberOfStudents = 100;
 
 // Bad
-var myString = "Hello world";
+var nos = 100;
 ```
 - Use function declarations, not expressions.
 ```js
@@ -72,4 +72,12 @@ function hello () {
 var hello = function () {
   console.log('hello');
 };
+```
+- Use single quotes for strings.
+```js
+// Good
+var myString = 'Hello world';
+
+// Bad
+var myString = "Hello world";
 ```
