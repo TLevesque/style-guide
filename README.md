@@ -21,7 +21,7 @@ Then make sure to respect correct indentation.
 
 ## JavaScript
 
-- Put semi-colons at the end of your statements.
+- Put semicolons at the end of your statements.
 ```js
 // Good
 var letter = 'a';
