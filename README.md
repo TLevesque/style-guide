@@ -1,2 +1,2 @@
-# style-guide
-Codeworks code style guide
+# Codeworks coding style guide
+
