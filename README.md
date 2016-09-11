@@ -23,61 +23,97 @@ Then make sure to respect correct indentation.
 
 - Put semicolons at the end of your statements.
 ```js
-// Good
-var letter = 'a';
-
 // Bad
 var letter = 'a'
+
+// Good
+var letter = 'a';
 ```
 - Assign each variable on a separate line.
 ```js
-// Good
-var letter = 'a';
-var number = 1;
-
 // Bad
 var letter = 'a', number = 1;
 
 var letter = 'a',
     number = 1;
+
+// Good
+var letter = 'a';
+var number = 1;
 ```
 - Use "camel case" for variable naming (if it's for a class the first letter is uppercase). 
 ```js
+// Bad
+var myboolean = true;
+
 // Good
 var myBoolean = true;
 
 function MyClass (name) {
   this.name = name;
 }
-
-// Bad
-var myboolean = true;
 ```
 - Be descriptive with your variable names.
 ```js
-// Good
-var numberOfStudents = 100;
-
 // Bad
 var nos = 100;
+
+// Good
+var numberOfStudents = 100;
 ```
 - Use function declarations, not expressions.
 ```js
-// Good
-function hello () {
-  console.log('hello');
-}
-
 // Bad
 var hello = function () {
   console.log('hello');
 };
+
+// Good
+function hello () {
+  console.log('hello');
+}
+```
+- Put a space between a function name and its arguments when you declare it (not when you call it).
+```js
+// Bad
+function log(str) {
+  console.log(str);
+}
+
+// Good
+function log (str) {
+  console.log(str);
+}
+```
+- Put a space before blocks, and around keywords.
+```js
+// Bad
+if (a){
+  b();
+}
+
+if (foo) {
+    //...
+}else {
+    //...
+}
+
+// Good
+if (a) {
+  b();
+}
+
+if (foo) {
+    //...
+} else {
+    //...
+}
 ```
 - Use single quotes for strings.
 ```js
-// Good
-var myString = 'Hello world';
-
 // Bad
 var myString = "Hello world";
+
+// Good
+var myString = 'Hello world';
 ```
