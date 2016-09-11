@@ -1,6 +1,6 @@
 # Codeworks coding style guide
 
-This is a reference to the style conventions that we use at Codeworks.
+This is a reference to the style conventions that we use at [Codeworks](https://codeworks.me/).
 
 ## General
 
