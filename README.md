@@ -40,7 +40,7 @@ var letter = 'a', number = 1;
 var letter = 'a',
     number = 1;
 ```
-- Use "camel case" for variables naming (if it's for a class the first letter is uppercase). 
+- Use "camel case" for variable naming (if it's for a class the first letter is uppercase). 
 ```js
 // Good
 var myBoolean = true;
