@@ -9,7 +9,7 @@ Set up your code editor to:
 - Indent with 2 spaces.
 - Use only spaces for indentation (no tabs).
 - Use Unix [line endings](https://en.wikipedia.org/wiki/Newline).
-- Avoid trailing whitespaces.
+- Avoid trailing whitespace.
 
 Then make sure to respect correct indentation.
 
